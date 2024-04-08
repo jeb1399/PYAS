@@ -38,7 +38,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.Protection_widget.setFont(font)
-        self.Protection_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.Protection_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.Protection_widget.setObjectName("Protection_widget")
         self.Real_time_Protection_widget = QtWidgets.QWidget(self.Protection_widget)
         self.Real_time_Protection_widget.setGeometry(QtCore.QRect(40, 10, 591, 91))
@@ -369,12 +369,12 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,70);\n"
+"    background-color:rgba(25, 25, 25,70);\n"
 "    color:rgba(0,0,0,170);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,110);\n"
+"    background-color:rgba(25, 25, 25,110);\n"
 "}\n"
 "")
         icon1 = QtGui.QIcon()
@@ -408,12 +408,12 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,70);\n"
+"    background-color:rgba(25, 25, 25,70);\n"
 "    color:rgba(0,0,0,170);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,110);\n"
+"    background-color:rgba(25, 25, 25,110);\n"
 "}\n"
 "")
         icon2 = QtGui.QIcon()
@@ -450,12 +450,12 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,70);\n"
+"    background-color:rgba(25, 25, 25,70);\n"
 "    color:rgba(0,0,0,170);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,110);\n"
+"    background-color:rgba(25, 25, 25,110);\n"
 "}\n"
 "")
         icon3 = QtGui.QIcon()
@@ -489,12 +489,12 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,70);\n"
+"    background-color:rgba(25, 25, 25,70);\n"
 "    color:rgba(0,0,0,170);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,110);\n"
+"    background-color:rgba(25, 25, 25,110);\n"
 "}\n"
 "")
         icon4 = QtGui.QIcon()
@@ -529,7 +529,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.Virus_Scan_widget.setFont(font)
-        self.Virus_Scan_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.Virus_Scan_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.Virus_Scan_widget.setObjectName("Virus_Scan_widget")
         self.Virus_Scan_title = QtWidgets.QLabel(self.Virus_Scan_widget)
         self.Virus_Scan_title.setGeometry(QtCore.QRect(45, 30, 281, 41))
@@ -799,7 +799,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.State_widget.setFont(font)
-        self.State_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.State_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.State_widget.setObjectName("State_widget")
         self.State_title = QtWidgets.QLabel(self.State_widget)
         self.State_title.setGeometry(QtCore.QRect(50, 210, 571, 41))
@@ -880,7 +880,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.About_widget.setFont(font)
-        self.About_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.About_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.About_widget.setObjectName("About_widget")
         self.About_Back = QtWidgets.QPushButton(self.About_widget)
         self.About_Back.setGeometry(QtCore.QRect(20, 10, 101, 41))
@@ -1070,11 +1070,11 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,150);\n"
+"    background-color:rgba(25, 25, 25,150);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,220);\n"
+"    background-color:rgba(25, 25, 25,220);\n"
 "}")
         self.Close_Button.setText("")
         icon6 = QtGui.QIcon()
@@ -1104,11 +1104,11 @@ class Ui_MainWindow(object):
 "}\n"
 "QPushButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,150);\n"
+"    background-color:rgba(25, 25, 25,150);\n"
 "}\n"
 "QPushButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,220);\n"
+"    background-color:rgba(25, 25, 25,220);\n"
 "}")
         self.Minimize_Button.setText("")
         icon7 = QtGui.QIcon()
@@ -1149,11 +1149,11 @@ class Ui_MainWindow(object):
 "}\n"
 "QToolButton:hover\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,150);\n"
+"    background-color:rgba(25, 25, 25,150);\n"
 "}\n"
 "QToolButton:pressed\n"
 "{\n"
-"    background-color:rgba(255, 255, 255,220);\n"
+"    background-color:rgba(25, 25, 25,220);\n"
 "}")
         self.Menu_Button.setText("")
         icon8 = QtGui.QIcon()
@@ -1169,7 +1169,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.Process_widget.setFont(font)
-        self.Process_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.Process_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.Process_widget.setObjectName("Process_widget")
         self.Process_Tools_Back = QtWidgets.QPushButton(self.Process_widget)
         self.Process_Tools_Back.setGeometry(QtCore.QRect(20, 10, 101, 41))
@@ -1252,7 +1252,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.Tools_widget.setFont(font)
-        self.Tools_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.Tools_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.Tools_widget.setObjectName("Tools_widget")
         self.More_Tools_Back_Button = QtWidgets.QPushButton(self.Tools_widget)
         self.More_Tools_Back_Button.setGeometry(QtCore.QRect(20, 10, 101, 41))
@@ -1440,7 +1440,7 @@ class Ui_MainWindow(object):
         font.setPointSize(11)
         font.setStyleStrategy(QtGui.QFont.PreferAntialias)
         self.Setting_widget.setFont(font)
-        self.Setting_widget.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.Setting_widget.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.Setting_widget.setObjectName("Setting_widget")
         self.Show_high_sensitivity = QtWidgets.QWidget(self.Setting_widget)
         self.Show_high_sensitivity.setGeometry(QtCore.QRect(30, 50, 781, 81))
@@ -1796,7 +1796,7 @@ class Ui_MainWindow(object):
         self.Theme_title.raise_()
         self.widget_2 = QtWidgets.QWidget(self.widget)
         self.widget_2.setGeometry(QtCore.QRect(170, 50, 671, 481))
-        self.widget_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.widget_2.setStyleSheet("background-color: rgb(25, 25, 25);")
         self.widget_2.setObjectName("widget_2")
         self.widget_2.raise_()
         self.Setting_widget.raise_()
